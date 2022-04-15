@@ -31,7 +31,7 @@ public class Autobuz implements MijlocTransport{
     }
 
     @Override
-    public void setNrPasageri(int nrPasageri) {
-        this.numarPasageri=nrPasageri;
+    public void setNrPasageri(int Alin) {
+        this.numarPasageri=Alin;
     }
 }
