@@ -16,4 +16,11 @@ public class AutobuzNocturn implements MijlocTransport {
             System.out.println("Autobuzul se retrage la capat de linie");
         }
     }
+
+    @Override
+    public void setNrPasageri(int nrPasageri) {
+
+    }
+
+
 }
