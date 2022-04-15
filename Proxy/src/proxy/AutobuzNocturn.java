@@ -19,7 +19,7 @@ public class AutobuzNocturn implements MijlocTransport {
 
     @Override
     public void setNrPasageri(int nrPasageri) {
-
+        autobuz.setNrPasageri(nrPasageri);
     }
 
 

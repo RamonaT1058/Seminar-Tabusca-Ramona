@@ -12,7 +12,7 @@ public class Main {
         MijlocTransport autobuzNoapte= new AutobuzNocturn((Autobuz) autobuz);
         autobuzNoapte.opresteLaStatie();
 
-        ((Autobuz) autobuzNoapte).setNumarPasageri(0);
-        autobuz.opresteLaStatie();
+        autobuzNoapte.setNrPasageri(0);
+        autobuzNoapte.opresteLaStatie();
     }
 }

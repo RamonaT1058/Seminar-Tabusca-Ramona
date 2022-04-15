@@ -29,4 +29,9 @@ public class Autobuz implements MijlocTransport{
     public void opresteLaStatie() {
         System.out.println("Autobuzul de ep linia "+this.getNumarLinie()+" cu " +this.getNumarPasageri()+ " pasageri a oprit in statie.");
     }
+
+    @Override
+    public void setNrPasageri(int nrPasageri) {
+        this.numarPasageri=nrPasageri;
+    }
 }
