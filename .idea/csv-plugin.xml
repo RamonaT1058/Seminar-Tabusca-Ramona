@@ -59,6 +59,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\Flyweight\src\flyweight\Linie.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Flyweight\src\flyweight\LinieFactory.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Flyweight\src\main\Main.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\Prototype\src\main\Main.java">
           <value>
             <Attribute>
