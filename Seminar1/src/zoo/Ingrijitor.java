@@ -7,8 +7,11 @@ public class Ingrijitor {
         this.nume = nume;
     }
 
-    public void hranesteAnimal(Animal animal){
-        String mancare;
+    public String getNume() {
+        return nume;
+    }
+
+    public void hranesteAnimal(Animal animal, String mancare){
         animal.mananca(mancare);
     }
 }
