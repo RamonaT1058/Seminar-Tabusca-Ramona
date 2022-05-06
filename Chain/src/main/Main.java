@@ -18,5 +18,19 @@ public class Main {
         handlerTroleibuz.recomandaMijlocTransport(4);
         handlerTroleibuz.recomandaMijlocTransport(9);
         handlerTroleibuz.recomandaMijlocTransport(12);
+
+        MijlocTransportHandler handlerMetrouCluj = new MetrouHandler(2);
+        MijlocTransportHandler handlerAutobuzCluj = new AutobuzHandler(100000);
+        MijlocTransportHandler handlerTramvaiCluj = new TramvaiHandler(4);
+        MijlocTransportHandler handlerTroleibuzCluj = new TroleibuzHandler(6);
+
+        handlerMetrouCluj.setUrmatorulMijlocTransport(handlerTramvaiCluj);
+        handlerTramvaiCluj.setUrmatorulMijlocTransport(handlerTroleibuzCluj);
+        handlerTroleibuzCluj.setUrmatorulMijlocTransport(handlerAutobuzCluj);
+
+        handlerMetrouCluj.recomandaMijlocTransport(5);
+        handlerMetrouCluj.recomandaMijlocTransport(1);
+        handlerMetrouCluj.recomandaMijlocTransport(25);
+
     }
 }
