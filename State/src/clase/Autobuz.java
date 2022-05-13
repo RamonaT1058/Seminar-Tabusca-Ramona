@@ -9,7 +9,7 @@ public class Autobuz {
         return stare;
     }
 
-    public void setStare(State stare) {
+    protected void setStare(State stare) {
         this.stare = stare;
     }
 
